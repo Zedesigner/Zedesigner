@@ -250,9 +250,9 @@ Function Contact Map 34.22737344417487, -3.3443287549815213
 				content: contentString
 			});	
 			var companyImage = new google.maps.MarkerImage('images/marker.png',
-				new google.maps.Size(58,63),<!-- Width and height of the marker -->
+				new google.maps.Size(58,63), /*<!-- Width and height of the marker --> */
 				new google.maps.Point(0,0),
-				new google.maps.Point(35,20)<!-- Position of the marker -->
+				new google.maps.Point(35,20) /*<!-- Position of the marker --> */
 			);
 			var companyPos = new google.maps.LatLng(34.22737344417487,-3.3443287549815213);	
 			var companyMarker = new google.maps.Marker({

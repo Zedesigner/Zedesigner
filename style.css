@@ -106,6 +106,10 @@ html,body {
 		display: block;
 	}
 	
+.inner h2 .has-mask-fill {
+    color: rgb(20, 20, 20); /* You can change this to any color you want */
+}
+
 	audio {
 		display: inline-block;
 		max-width: 100%;
