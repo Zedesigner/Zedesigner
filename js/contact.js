@@ -35,17 +35,17 @@ Function Contact Formular
 
 
 /*--------------------------------------------------
-Function Contact Map
+Function Contact Map 34.22737344417487, -3.3443287549815213
 ---------------------------------------------------*/	
 		
 	function ContactMap() {	
 	
 		if( jQuery('#map_canvas').length > 0 ){					
-			var latlng = new google.maps.LatLng(43.270441,6.640888);
+			var latlng = new google.maps.LatLng(34.22737344417487,6.640888);
 			var settings = {
 				zoom: 15,
 				disableDefaultUI: true,
-				center: new google.maps.LatLng(43.270441,6.640888),
+				center: new google.maps.LatLng(34.22737344417487,-3.3443287549815213),
 				mapTypeControl: false,
 				scrollwheel: false,
 				draggable: true,
@@ -243,7 +243,7 @@ Function Contact Map
 				'</div>'+
 				'<h4 id="firstHeading" class="firstHeading" style="color:#000!important; font-weight:600; margin-bottom:0px;">Hello Friend!</h4>'+
 				'<div id="bodyContent">'+
-				'<p color:#999; font-size:14px; margin-bottom:10px">Here we are. Come to drink a coffee!</p>'+
+				'<p color:#999; font-size:14px; margin-bottom:10px">Here I am. Come to drink a coffee!</p>'+
 				'</div>'+
 				'</div>';
 			var infowindow = new google.maps.InfoWindow({
@@ -259,7 +259,7 @@ Function Contact Map
 				position: companyPos,
 				map: map,
 				icon: companyImage,               
-				title:"Our Office",
+				title:"My Office",
 				zIndex: 3});	
 			google.maps.event.addListener(companyMarker, 'click', function() {
 				infowindow.open(map,companyMarker);
