@@ -254,7 +254,7 @@ Function Contact Map 34.22737344417487, -3.3443287549815213
 				new google.maps.Point(0,0),
 				new google.maps.Point(35,20)<!-- Position of the marker -->
 			);
-			var companyPos = new google.maps.LatLng(43.270441,6.640888);	
+			var companyPos = new google.maps.LatLng(34.22737344417487,-3.3443287549815213);	
 			var companyMarker = new google.maps.Marker({
 				position: companyPos,
 				map: map,
